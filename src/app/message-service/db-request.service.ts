@@ -12,7 +12,7 @@ export class DbRequestService {
     name: "MyTable1"
   };
 
-  private flaskHttp = "http://127.0.0.1:5000/tables"
+  private flaskHttp = "https://nuello-back.herokuapp.com/tables"
 
   constructor(private http: HttpClient) { }
 
